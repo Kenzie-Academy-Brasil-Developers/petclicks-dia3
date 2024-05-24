@@ -1,0 +1,37 @@
+:root {
+  --color-gray-900: hsl(0, 0%, 0%);
+  --color-gray-700: hsl(0, 0%, 10%);
+  --color-gray-500: hsl(0, 0%, 30%);
+  --color-gray-100: hsl(0, 0%, 90%);
+
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  color: var(--color-gray-900);
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+  padding-inline: 1rem;
+}
+
+/* header {
+  padding-block: 1rem;
+  border: 2px solid orange;
+}
+
+section {
+  margin-block: 1rem;
+  padding-block: 1rem;
+  border: 2px solid rgb(153, 0, 0);
+}
+
+footer {
+  padding-block: 1rem;
+  border: 2px solid blue;
+} */

@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--color-gray-900);
+  padding-block: 2rem;
+}
+
+.header span,
+.header a {
+  color: var(--color-gray-100);
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li {
+  color: var(--color-gray-100);
+}
+
+.nav-list li:hover {
+  text-decoration: underline;
+}

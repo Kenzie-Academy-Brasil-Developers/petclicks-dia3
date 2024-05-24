@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Clicks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/styles/index.css" />
+  </head>
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="header">
+      <div class="container">
+        <span class="text lg bold">PetClicks</span>
+
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#">início</a>
+            </li>
+            <li>
+              <a href="#">contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+      <!-- SECTION - BANNER -->
+      <section class="banner">
+        <!-- <img src="./src/assets/imgs/dog-banner.jpg" alt="" /> -->
+        <div class="overlay">
+          <h1 class="title">PET CLICKS</h1>
+          <p class="text lg">Uma página dedicada a belas fotos de animais</p>
+        </div>
+      </section>
+
+      <!-- SECTION - SOBRE -->
+      <section class="about">
+        <div class="container">
+          <div class="about-us-content">
+            <div>
+              <h2 class="title two">Sobre</h2>
+              <p class="text">
+                Bem-vindo ao pet Clicks! Somos apaixonados por capturar a mesma
+                essência e a beleza dos animais em cada foto. Explore nossa
+                galeria e descubra fotos incríveis de cachorros, gatos e outros
+                animais.
+              </p>
+            </div>
+
+            <div>
+              <details class="accordion">
+                <summary class="text lg">Nossa Missão</summary>
+                <p class="text">
+                  Capturar momentos preciosos dos animais e compartilhá-los com
+                  o mundo, promovendo o amor e a proteção aos animais.
+                </p>
+              </details>
+
+              <details class="accordion">
+                <summary class="text lg">Serviços</summary>
+                <p class="text">
+                  Oferecemos sessões de fotos profissionais para animais de
+                  estimação, além de eventos especiais e álbuns personalizados.
+                </p>
+              </details>
+
+              <details class="accordion">
+                <summary class="text lg">Nossa Equipe</summary>
+                <p class="text">
+                  Nossa equipe é composta por fotógrafos especializados em
+                  animais, comprometidos em tirar as melhores fotos dos seus
+                  pets.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION - GALERIA -->
+      <section class="gallery">
+        <div class="container">
+          <h2 class="title two">Galeria</h2>
+          <!-- <button>Cachorros</button>
+          <button>Gatos</button>
+          <button>Pessoas</button> -->
+
+          <ul class="gallery-filters">
+            <li class="filter-item">
+              <input type="radio" name="input-filter" id="cachorro" />
+              <label for="cachorro">Cachorro</label>
+            </li>
+            <li class="filter-item">
+              <input type="radio" name="input-filter" id="gato" />
+              <label for="gato">Gatos</label>
+            </li>
+            <li class="filter-item">
+              <input type="radio" name="input-filter" id="pessoa" />
+              <label for="pessoa">Pessoas</label>
+            </li>
+          </ul>
+
+          <ul class="pet-photos-list">
+            <li>
+              <img src="./src/assets/imgs/dog-1.jpg" alt="" />
+            </li>
+            <li>
+              <img src="./src/assets/imgs/dog-2.jpg" alt="" />
+            </li>
+            <li>
+              <img src="./src/assets/imgs/dog-3.jpg" alt="" />
+            </li>
+            <li>
+              <img src="./src/assets/imgs/dog-4.jpg" alt="" />
+            </li>
+            <li>
+              <img src="./src/assets/imgs/dog-5.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION - FALE CONOSCO -->
+      <section class="contact">
+        <div class="container">
+          <h2 class="title two">Fale Conosco</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            mauris nunc, imperdiet eu euismod vel, eleifend id sem. Vestibulum
+            id blandit lorem, eget vehicula leo.
+          </p>
+          <h2 class="title two">41 3132-3435</h2>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text lg bold">PetClicks</span>
+        <span>Todos os direitos reservados</span>
+      </div>
+    </footer>
+  </body>
+</html>

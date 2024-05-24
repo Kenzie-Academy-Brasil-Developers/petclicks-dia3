@@ -1,0 +1,22 @@
+.banner {
+  background: url("../../assets/imgs/dog-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner h1,
+.banner p {
+  color: var(--color-gray-100);
+  text-align: center;
+}
+
+.overlay {
+  min-height: 70vh;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

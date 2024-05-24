@@ -1,0 +1,33 @@
+.gallery {
+  padding-block: 2rem;
+}
+
+.pet-photos-list {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.2rem;
+  padding-top: 1rem;
+}
+
+.gallery-filters {
+  display: flex;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.filter-item label {
+  border: 1px solid var(--color-gray-900);
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+input[name="input-filter"]:checked + label {
+  background-color: var(--color-gray-900);
+  color: var(--color-gray-100);
+}
+
+input[name="input-filter"] {
+  display: none;
+}

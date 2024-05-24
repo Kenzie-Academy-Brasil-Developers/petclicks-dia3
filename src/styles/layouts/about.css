@@ -1,0 +1,45 @@
+.about {
+  margin-block: 2rem;
+}
+
+.about-us-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* .about-us-content div:first-child {
+  background-color: blueviolet;
+} */
+
+/* .about-us-content div:last-child {
+  background-color: cornflowerblue;
+} */
+
+.accordion {
+  margin-block: 0.5rem;
+  background-color: var(--color-gray-100);
+}
+
+.accordion summary {
+  padding: 0.625rem;
+  background-color: var(--color-gray-900);
+  color: var(--color-gray-100);
+  cursor: pointer;
+}
+
+.accordion summary:hover {
+  background-color: var(--color-gray-700);
+  text-decoration: underline;
+}
+
+.accordion p {
+  padding: 0.875rem;
+}
+
+@media (max-width: 900px) {
+  .about-us-content {
+    grid-template-columns: 1fr;
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+}
